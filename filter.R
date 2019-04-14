@@ -1,0 +1,5 @@
+head(filter(air_quality,Month==9,Temp>90),10)
+filter(air_quality,Day<5 & Solar.R>=20)
+head(filter(air_quality,Day %in% c(1,2)),5)
+head(filter(air_quality,Month==8 | Wind<5),5)
+head(filter(air_quality,!is.na(Ozone)),5)

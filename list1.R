@@ -1,0 +1,11 @@
+v<-1:5
+v
+mat<-matrix(1:10,ncol=5)
+mat
+dim(mat)
+df<-(EuStockMarkets)
+df<-EuStockMarkets[1:10]
+df
+mylist<-list(vtr,mat,df)
+mylist
+mylist[[2]]
